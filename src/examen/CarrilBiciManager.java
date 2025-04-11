@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
  * 
  * @version 2.4.0
  * @author CádizTech
- * @link {https://institucional.cadiz.es/area/Plan-de-Movilidad-Urbana-Sostenible/2021}
+ *         {https://institucional.cadiz.es/area/Plan-de-Movilidad-Urbana-Sostenible/2021}
  */
 public class CarrilBiciManager {
 
@@ -107,8 +107,8 @@ public class CarrilBiciManager {
 	 * Método que que devuelve una copia del mapa tramos, que registra cada tramo y
 	 * su longitud en kilómetros
 	 * 
-	 * @return Map<String, Double> donde la clave es el nombre de los tramos y el
-	 *         valor su longitud en kilómetros
+	 * @return Map donde la clave es un String con el nombre de los tramos y el
+	 *         valor un Double con su longitud en kilómetros
 	 */
 	public Map<String, Double> obtenerTramos() {
 		return Collections.unmodifiableMap(tramos);
